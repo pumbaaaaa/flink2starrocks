@@ -1,0 +1,27 @@
+# maven ignore
+target/
+*.class
+*.jar
+*.war
+*.zip
+*.tar
+*.tar.gz
+dependency-reduced-pom.xml
+.flattened-pom.xml
+pom.xml.versionsBackup
+
+# maven plugin ignore
+release.properties
+cobertura.ser
+*.gpg
+
+# idea ignore
+.idea/
+!/.idea/icon.png
+*.ipr
+*.iml
+*.iws
+
+# system ignore
+.DS_Store
+Thumbs.db
